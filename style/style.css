@@ -1,56 +1,73 @@
 p{
-    color:antiquewhite;
-
+  color:antiquewhite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
 }
 .row {
-    display: flex;
-    justify-content: space-between;
-   
+  display: flex;
+
 }
 .box1 {
-    width: 200px;
-    height: 200px;
-    background: linear-gradient(to bottom, red, blue);
-    transition: background 0.3s ease;
-  }
-  
-  .box1:hover {
-    background: linear-gradient(to bottom, blue, green);
-  }
-  .box2 {
-    width: 200px;
-    height: 200px;
-    background-image: repeating-linear-gradient(135deg, #ffcb05 0%, #fc9cee 100%);
-    transition: background 0.3s ease;
-  }
-    .box3 {
-    width: 200px;
-    height: 200px;
-    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,1));
-    transition: background 0.3s ease;
-  }
-  
-  .box4{
- width: 200px;
- height: 200px;
- background-image:linear-gradient(to bottom, rgb(255, 0, 85), rgb(145, 255, 0));
- transition: background 0.3s ease;
+  width: 300px;
+  height: 900px;
+  background: linear-gradient(to bottom, red, blue);
+  transition: background 0.3s ease;
+  margin: 0 0 0 0;
+  position: relative;
+}
+
+.box1:hover {
+  background: linear-gradient(to bottom, blue, green);
+}
+.box2 {
+  width: 300px;
+  height: 900px;
+  background-image: repeating-linear-gradient(135deg, #ffcb05 0%, #fc9cee 100%);
+  transition: background 0.3s ease;
+  margin: 0 0 0 0;
+  position: relative;
+}
+  .box3 {
+  width: 300px;
+  height: 900px;
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,1));
+  transition: background 0.3s ease;
+  margin: 0 0 0 0;
+  position: relative;
+}
+
+.box4{
+width: 300px;
+height: 900px;
+background-image:linear-gradient(to bottom, rgb(255, 0, 85), rgb(145, 255, 0));
+transition: background 0.3s ease;
+margin: 0 0 0 0;
+position: relative;
 }
 .box5{
-width: 200px;
-height: 200px;
+width: 300px;
+height: 900px;
 background-image:linear-gradient(to bottom, orange 60%, cyan);
 transition: background 0.3s ease;
+margin: 0 0 0 0;
+position: relative;
 }
 .box6{
-    width: 200px;
-    height: 200px;
-    background-image:linear-gradient(to bottom,#010D55, #0BFDED);
-    transition: background 0.3s ease;
-    }
- .box7{
-    width: 200px;
-    height: 200px;
-    background-image:linear-gradient(to bottom,#669BFE, #BEFDC0);
-    transition: background 0.3s ease;
+  width: 300px;
+  height: 900px;
+  background-image:linear-gradient(to bottom,#010D55, #0BFDED);
+  transition: background 0.3s ease;
+  margin: 0 0 0 0;
+  position: relative;
+  }
+.box7{
+  width: 300px;
+  height: 900px;
+  background-image:linear-gradient(to bottom,#669BFE, #BEFDC0);
+  transition: background 0.3s ease;
+  margin: 0 0 0 0;
+  position: relative;
 }
